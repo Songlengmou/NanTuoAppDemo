@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+repositories {
+    flatDir {
+        dir 'libs'
+    }
+}
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.example.admin.nantuoappdemo"
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        dexOptions {
+            jumboMode true
+        }
+
+        javaCompileOptions {  //如果用butterknife必须加这个
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDir 'libs'
+            jni.srcDirs = []
+        }
+    }
+
+    useLibrary 'org.apache.http.legacy'   //环信
+
+    signingConfigs {
+        debug {
+            storeFile file("../app.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //Okhttp3
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    //Gson
+    compile 'com.google.code.gson:gson:2.6.2'
+    //Rxjava
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'io.reactivex:rxjava:1.1.0'
+    //Retrofit2
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.afollestad.material-dialogs:core:0.9.1.0'
+    //视频播放
+    compile 'fm.jiecao:jiecaovideoplayer:5.5.2'
+    //百度地图
+    implementation files('libs/BaiduLBS_Android.jar')
+    //蓝牙区域的视频播放
+    compile(name: 'ble', ext: 'aar')
+    //    compile 'com.vise.xiaoyaoyou:xsnow:2.1.3'  //自带的rxjava
+    compile 'com.yanzhenjie:permission:1.1.2'
+    //环信
+    implementation files('libs/hyphenatechat_3.3.7.jar')
+    //Optional compile for GCM (Google Cloud Messaging).
+    //noinspection GradleCompatible
+    compile 'com.google.android.gms:play-services-gcm:9.4.0'
+    //file-downloader框架
+    compile 'org.wlf:FileDownloader:0.3.1'
+    //SwipeDelMenuLayout
+    compile 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.5'
+}

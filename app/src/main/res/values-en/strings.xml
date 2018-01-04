@@ -1,0 +1,318 @@
+<resources>
+    <string name="app_name">南拓</string>
+    <string name="app_title">南拓</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.\nSorry for the inconvenience.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart app</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close app</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+
+    <!-- Activity description -->
+    <string name="up">up </string>
+    <string name="down">drops</string>
+    <string name="left">left sliding</string>
+    <string name="right">to right slider </string>
+    <string name="ups">slides up</string>
+
+    <string name="tracing_desc">室内、外高精度连续追踪</string>
+    <string name="track_query_desc">查询被追踪者的历史轨迹</string>
+    <string name="fence_desc">本地、云端围栏双重监控</string>
+    <string name="bos_desc">上传、下载图片，生成水印图片</string>
+    <string name="cache_manage_desc">查询、删除缓存的轨迹信息</string>
+    <string name="faq_desc">状态码及问题反馈渠道说明</string>
+    <string name="font_type">微软雅黑</string>
+    <string name="demo_name_poi">周边服务</string>
+    <string name="demo_name_route">路线选择</string>
+    <string name="tracing_title">鹰眼足迹</string>
+    <string name="tracing_options_title">鹰眼足迹设置</string>
+    <string name="track_query_options_title">鹰眼足迹查询设置</string>
+
+    <!-- Trace control sub-options -->
+    <string name="start_trace">Open the service</string>
+    <string name="stop_trace">Stop the service</string>
+    <string name="start_gather">Open to collect</string>
+    <string name="stop_gather">Stop to collect</string>
+
+    <!-- Trace analysis suboptions -->
+    <string name="speeding">Super speed</string>
+    <string name="harsh_breaking">The brakes</string>
+    <string name="harsh_accel">Urgent speed</string>
+    <string name="harsh_steering">A sharp turn</string>
+    <string name="stay_point">stop</string>
+
+    <!-- Trace analysis suboptions -->
+    <string name="loc_time">Positioning time：</string>
+    <string name="actual_speed">Actual running speed：</string>
+    <string name="limit_speed">Speed limit：</string>
+    <string name="acceleration">Actual acceleration：</string>
+    <string name="initial_speed_1">Speed ahead：</string>
+    <string name="end_speed_1">Speed up：</string>
+    <string name="initial_speed_2">Brake speed：</string>
+    <string name="end_speed_2">Brake speed：</string>
+    <string name="centripetal_acceleration">Centripetal acceleration：</string>
+    <string name="turn_type">To type：</string>
+    <string name="turn_speed">To speed：</string>
+    <string name="stay_start_time">The start time：</string>
+    <string name="stay_end_time">The end of time：</string>
+    <string name="stay_duration">The stay time：</string>
+    <!-- TracingOptionActivity Name of primary option -->
+    <string name="tracing_option_interval">Collection and packing frequency (unit: second):</string>
+    <string name="tracing_option_location_mode">Positioning mode:</string>
+    <string name="tracing_option_object_save">Object storage:</string>
+
+    <!-- Locate the schema sub-option name -->
+    <string name="high_accuracy">High accuracy positioning mode, GPS and network integrated positioning</string>
+    <string name="battery_saving">Low power consumption positioning mode, only use network positioning</string>
+    <string name="device_sensors">Use only equipment (GPS) positioning</string>
+
+    <!--  BOS stores the switch option -->
+    <string name="close_bos">close </string>
+    <string name="open_bos"> opens </string>
+
+    <!-- collection of package options  -->
+    <string name="gather_interval">gathering frequency: </string>
+    <string name="pack_interval">packaging frequency: </string>
+
+    <!-- collect the default value of the package  -->
+    <string name="gather_interval_hint">five</string>
+    <string name="pack_interval_hint">thirty</string>
+
+    <!-- TrackQueryOptionsActivity Primary option -->
+    <string name="track_query_option_time">start-stop time:</string>
+    <string name="track_query_option_process">rectifying and data analysis: </string>
+    <string name="track_query_option_radius_threshold">precision filtering (unit: m) :</string>
+    <string name="track_query_option_transport_mode">mode of transportation: </string>
+    <string name="track_query_option_sort_type">sort rule: </string>
+
+    <!-- the start-stop time option -->
+    <string name="start_time">start：</string>
+    <string name="end_time">end：</string>
+
+    <!-- precision filter sub-option -->
+    <string name="radius_value">filter value: </string>
+    <string name="radius_hint">zero</string>
+
+    <!-- deviation and data analysis sub-option  -->
+    <string name="processed">correction </string>
+    <string name="denoise">to noise </string>
+    <string name="vacuate">spares </string>
+    <string name="mapmatch">bound path </string>
+
+    <!-- the mode of transportation -->
+    <string name="driving_mode">driver </string>
+    <string name="riding_mode">ride </string>
+    <string name="walking_mode">walk </string>
+
+    <!-- the sort rule child option -->
+    <string name="asc">ascending order </string>
+    <string name="desc">descending order </string>
+
+    <!-- public string -->
+    <string name="all_supplement_model">mileage compensation method: </string>
+    <string name="all_coord_type">coordinate type: </string>
+    <string name="all_cancel">cancel </string>
+    <string name="all_sure">determines </string>
+    <string name="ture_choose">Is it a choice?</string>
+
+    <!-- public string mileage compensation option  -->
+    <string name="no_supplement">does not add </string>
+    <string name="straight">linear distance </string>
+    <string name="driving">shortest driving route </string>
+    <string name="riding">shortest cycling route </string>
+    <string name="walking">shortest walk route </string>
+
+    <!-- public string coordinate type -->
+    <string name="bd09ll">Baidu longitude and latitude coordinates</string>
+    <string name="gcj02">National bureau of survey encryption coordinates</string>
+
+    <!-- Dialog title  -->
+    <string name="trace_control_title">tracing control </string>
+    <string name="track_analysis_title">trace analysis </string>
+    <string name="track_analysis_speeding_title">details </string>
+    <string name="track_analysis_breaking_title">brake details</string>
+    <string name="track_analysis_accel_title">speed change details </string>
+    <string name="track_analysis_steering_title">sharp turn details </string>
+    <string name="track_analysis_stay_title">stop for details</string>
+    <string name="fence_setting_title">fence setting </string>
+    <string name="fence_create_local_circle">creates the local circular fence </string>
+    <string name="fence_create_server_circle">creates the service end circular fence </string>
+    <string name="fence_create_polyline">creates multiple line fences </string>
+    <string name="fence_create_polygon">creates the polygon fence</string>
+
+    <string name="no_track_data">No trace is found</string>
+
+    <string name="track_query_title">trace query </string>
+
+    <string name="choose">because of the permission issue, you should register before login, thank you! </string>
+    <string name="ok">good </string>
+    <string name="no">is not </string>
+
+    <!--login page-->
+    <string name="username">please enter your account </string>
+    <string name="password">please enter password </string>
+    <string name="login">login </string>
+    <string name="register">registration </string>
+
+    <!--registration page -->
+    <string name="usernameS">please enter username </string>
+    <string name="passwords">please enter password </string>
+    <string name="passwordSs">please enter password again </string>
+    <string name="read">I have read and agree to the terms of service </string>
+    <string name="registerEs">registration </string>
+
+    <!--fragment_message_listlist-->
+    <string name="id">Please enter the account number of the other party</string>
+    <string name="mess">please enter send content </string>
+    <string name="lian">your connection has disconnected </string>
+    <string name="returns">switch account or re-login  </string>
+    <string name="send">sends </string>
+
+    <!--activity_add_friend-->
+    <string name="good">Please enter your buddy account/ID </string>
+    <string name="reason">adds reason </string>
+    <string name="findAdd">to find and add </string>
+
+    <!--activity_create_group-->
+    <string name="groupQun">group name: </string>
+    <string name="zi">two~ten Chinese characters or letters </string>
+    <string name="create">creates </string>
+
+    <!--activity_group-->
+    <string name="sid">Input the ID</string>
+    <string name="find">invitation </string>
+    <string name="member">group member </string>
+
+    <!--otherAll-->
+    <string name="route_choose">Route selection </string>
+    <string name="ar_nav">AR navigation </string>
+    <string name="around">peripheral service </string>
+    <string name="eagle">my footprint </string>
+    <string name="voice">voice navigation </string>
+    <string name="offline">offline download</string>
+    <string name="chat">My chat room </string>
+    <string name="tel">customer service</string>
+    <string name="map_choose_dialog">function selection</string>
+    <string name="video">video details </string>
+    <string name="tv_up">Starting point </string>
+    <string name="at_navi">current location </string>
+    <string name="tv_end">endpoint </string>
+    <string name="start_navi">start navigation </string>
+    <string name="myOfflin">download offline map </string>
+    <string name="city">Beijing </string>
+    <string name="search">search </string>
+    <string name="state">has been downloaded: --</string>
+    <string name="start">begins</string>
+    <string name="stop">stop </string>
+    <string name="del">delete</string>
+    <string name="city_list">city list </string>
+    <string name="local">download management </string>
+    <string name="hot_city">hot city </string>
+    <string name="guo">national </string>
+    <string name="download">Download city </string>
+    <string name="searchkey">restaurant </string>
+    <string name="searchNearby">peripheral search</string>
+    <string name="picture">image </string>
+    <string name="videos">video </string>
+    <string name="photo">camera </string>
+    <string name="biao">expression </string>
+    <string name="tv_upes">start </string>
+    <string name="intoup">input starting point </string>
+    <string name="intoend">input endpoint </string>
+    <string name="drive">drive </string>
+    <string name="transit">bus </string>
+    <string name="walk">Walking</string>
+    <string name="bike">cycling </string>
+    <string name="message">message </string>
+    <string name="linkman">Contact </string>
+    <string name="set">setting </string>
+    <string name="trace">trace is always tracking </string>
+    <string name="query">history trace query </string>
+    <string name="drawmap">please click select the required route and draw  on the map</string>
+    <string name="province">Province</string>
+    <string name="cities">The city</string>
+    <string name="cancel">cancel </string>
+    <string name="tures">determines</string>
+    <string name="citys">city:</string>
+    <string name="key">keyword:</string>
+    <string name="new_friend">New friends </string>
+    <string name="group">group chat </string>
+    <string name="delies">delete</string>
+    <string name="loadings">has been downloaded from the city </string>
+    <string name="look">view </string>
+    <string name="remove">delete </string>
+    <string name="search_location">search location </string>
+    <string name="no_wifi">no network </string>
+    <string name="no_result">No results are found </string>
+    <string name="result">finds the result </string>
+    <string name="sorry_result">sorry, no result </string>
+    <string name="sorry_wifi">network cannot be used </string>
+    <string name="sorry_user">user name cannot be empty </string>
+    <string name="sorry_password">password cannot be empty </string>
+    <string name="and_false">login failed, password or account error </string>
+    <string name="open_map">opens the personalized map</string>
+    <string name="close_map">closes the personalization map </string>
+    <string name="open_loading_map">begins to download the offline map. cityid: </string>
+    <string name="close_loading_map">stops downloading the offline map. cityid: </string>
+    <string name="del_loading_map">deletes offline map. cityid: </string>
+    <string name="up_date">can be updated </string>
+    <string name="new_date">latest </string>
+    <string name="info_tures">confirms that the information is correct </string>
+    <string name="fou">not</string>
+    <string name="is">yes</string>
+    <string name="success_register">Registered success </string>
+    <string name="no_user">account cannot be empty </string>
+    <string name="no_pass">password cannot be empty </string>
+    <string name="no_up">password input is inconsistent </string>
+    <string name="short_user">user name is too short </string>
+    <string name="length_pass">attention password length </string>
+    <string name="length">account length cannot be less than five bits </string>
+    <string name="prompt">description</string>
+    <string name="turen">Confirm</string>
+    <string name="retrieval">检索地址有歧义，请重新设置。
+可通过getSuggestAddrInfo()接口获得建议查询信息</string>
+    <string name="input_end">Please enter the endpoint </string>
+    <string name="position">my location</string>
+    <string name="null_user">user name is empty </string>
+    <string name="del_friend">delete friend </string>
+    <string name="success_creat">creates success! </string>
+    <string name="false_creat">creation failed!</string>
+    <string name="dissolution">group dissolves successfully </string>
+    <string name="not_yet_open">is not open</string>
+    <string name="remove_user">account has been removed </string>
+    <string name="no_login_user">account in other devices login </string>
+    <string name="not_service">is not connected to the chat server </string>
+    <string name="not_wifi">当前网络不可用，请检查网络设置</string>
+    <string name="enorr_key">key 验证出错! 错误码 :</string>
+    <string name="p_key"> ; 请在 AndroidManifest.xml 文件中检查 key 设置</string>
+    <string name="success_key">key 验证成功! 功能可以正常使用</string>
+    <string name="wifi_e">Network error</string>
+    <string name="ordinary">normal </string>
+    <string name="follow">follows </string>
+    <string name="compass">compass </string>
+    <string name="noresult">did not find the result </string>
+    <string name="mani_key">请在AndoridManifest.xml中输入正确的授权Key,并检查您的网络连接是否正常！error: </string>
+    <string name="c_key">Key authentication success </string>
+    <string name="sj">data has been updated!</string>
+    <string name="cm">sends message success!</string>
+    <string name="fm">send message failed! </string>
+    <string name="lx">route </string>
+    <string name="xl">line</string>
+    <string name="dy">is about: </string>
+    <string name="jl">distance is about: </string>
+    <string name="fen">minute </string>
+    <string name="hour">hour </string>
+    <string name="mi">m</string>
+    <string name="hlh">traffic lights: </string>
+    <string name="yd">Congestion distance is：</string>
+    <string name="yj">is expected to reach time: </string>
+    <string name="price">total ticket price: </string>
+    <string name="finish">is finished. </string>
+    <string name="me">Me</string>
+
+</resources>

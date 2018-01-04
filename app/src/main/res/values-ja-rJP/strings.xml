@@ -1,0 +1,319 @@
+<resources>
+    <string name="app_name">南拓</string>
+    <string name="app_title">南拓</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.\nSorry for the inconvenience.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart app</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close app</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+
+    <!-- Activity说明 -->
+    <string name="up">上を滑る</string>
+    <string name="down">墜落する</string>
+    <string name="left">左に滑る</string>
+    <string name="right">右に滑る</string>
+    <string name="ups">上スライド</string>
+
+    <string name="tracing_desc">中・高精度の連続的な追跡</string>
+    <string name="track_query_desc">追跡者の歴史的軌跡を調べます</string>
+    <string name="fence_desc">地元、雲端の垣根は二重監視</string>
+    <string name="bos_desc">写真をアップロードし、透かしの画像を生成します</string>
+    <string name="cache_manage_desc">キャッシュの軌跡情報を検索、削除する。</string>
+    <string name="faq_desc">状態コード及び問題フィードバック・チャネル説明</string>
+    <string name="font_type">マイクロソフトヤ黒い</string>
+    <string name="demo_name_poi">周辺サービス</string>
+    <string name="demo_name_route">コース選択</string>
+    <string name="tracing_title">ワシの目の足跡</string>
+    <string name="tracing_options_title">ホークアイ</string>
+    <string name="track_query_options_title">ホークアイ</string>
+
+    <!-- 制御サブオプション -->
+    <string name="start_trace">サービスを開始する。</string>
+    <string name="stop_trace">サービスを停止する</string>
+    <string name="start_gather">採取する</string>
+    <string name="stop_gather">採取を停止する</string>
+
+    <!-- 軌跡分析子 -->
+    <string name="speeding">超 速</string>
+    <string name="harsh_breaking">急ブレーキ</string>
+    <string name="harsh_accel">急变速</string>
+    <string name="harsh_steering">急旋回</string>
+    <string name="stay_point">とどまるところ</string>
+
+    <!-- 分析の詳細については -->
+    <string name="loc_time">測位時間：</string>
+    <string name="actual_speed">実際走行速度：</string>
+    <string name="limit_speed">最高時速に限る：</string>
+    <string name="acceleration">実際加速度：</string>
+    <string name="initial_speed_1">速度を速める：</string>
+    <string name="end_speed_1">スピードを速める：</string>
+    <string name="initial_speed_2">ブレーキ前速：</string>
+    <string name="end_speed_2">ブレーキ後時速：</string>
+    <string name="centripetal_acceleration">心の加速度：</string>
+    <string name="turn_type">タイプを向ける：</string>
+    <string name="turn_speed">速度を向ける：</string>
+    <string name="stay_start_time">開始時間：</string>
+    <string name="stay_end_time">時間を終える：</string>
+    <string name="stay_duration">滞留時間：</string>
+    <!-- TracingOptionActivity 主選名 -->
+    <string name="tracing_option_interval">采用・パッケージ・周波数(単位:秒):</string>
+    <string name="tracing_option_location_mode">測位モード:</string>
+    <string name="tracing_option_object_save">オブジェクト記憶:</string>
+
+
+    <!-- 測位モードサブオプション -->
+    <string name="high_accuracy">高精度測位モード、gpsとネットワーク総合位置</string>
+    <string name="battery_saving">低消費電力測位モードは、ネットワークの位置のみを使用する</string>
+    <string name="device_sensors">デバイス(gps)のみを使用する</string>
+
+    <!-- bosは関系を保存します -->
+    <string name="close_bos">关闭</string>
+    <string name="open_bos">開く</string>
+
+    <!-- 肉まんの選択肢を採集する -->
+    <string name="gather_interval">採取周波数:</string>
+    <string name="pack_interval">梱包周波数:</string>
+
+    <!-- 梱包したデフォルト値を採集する -->
+    <string name="gather_interval_hint">5</string>
+    <string name="pack_interval_hint">30</string>
+
+    <!-- TrackQueryOptionsActivity主選項目 -->
+    <string name="track_query_option_time">起床時間。:</string>
+    <string name="track_query_option_process">データ解析:</string>
+    <string name="track_query_option_radius_threshold">精度フィルタ(単位:米):</string>
+    <string name="track_query_option_transport_mode">交通手段:</string>
+    <string name="track_query_option_sort_type">ソート:</string>
+
+    <!-- タイム・タイム -->
+    <string name="start_time">から：</string>
+    <string name="end_time">终：</string>
+
+    <!-- 精度フィルタ-->
+    <string name="radius_value">濾過値：</string>
+    <string name="radius_hint">0</string>
+
+    <!-- データ分析子の選択肢を解析します-->
+    <string name="processed">纠偏</string>
+    <string name="denoise">行く安からぬ</string>
+    <string name="vacuate">吸って稀</string>
+    <string name="mapmatch">縄手道</string>
+
+    <!-- 交通手段 -->
+    <string name="driving_mode">運転</string>
+    <string name="riding_mode">右肩</string>
+    <string name="walking_mode">步行</string>
+
+    <!-- ソート・ルール -->
+    <string name="asc">昇順</string>
+    <string name="desc">降順</string>
+
+    <!-- 共通文字列 -->
+    <string name="all_supplement_model">走行距離補償方式:</string>
+    <string name="all_coord_type">座標系:</string>
+    <string name="all_cancel">キャンセル</string>
+    <string name="all_sure">確定</string>
+    <string name="ture_choose">選択を決定しますか?</string>
+
+    <!-- 文字列距離補償オプション -->
+    <string name="no_supplement">補充しない</string>
+    <string name="straight">直線距離</string>
+    <string name="driving">最短運転ルート</string>
+    <string name="riding">最短運転ルート</string>
+    <string name="walking">最短馬路線</string>
+
+    <!-- 共通文字列座標系 -->
+    <string name="bd09ll">百度緯度座標</string>
+    <string name="gcj02">国家計測局暗号座標</string>
+
+    <!-- Dialogタイトル -->
+    <string name="trace_control_title">追跡制御</string>
+    <string name="track_analysis_title">軌跡分析</string>
+    <string name="track_analysis_speeding_title">スピード・スピード</string>
+    <string name="track_analysis_breaking_title">急ブレーキの詳細</string>
+    <string name="track_analysis_accel_title">急変速の詳細情</string>
+    <string name="track_analysis_steering_title">急に詳細を曲がる</string>
+    <string name="track_analysis_stay_title">詳細を説明する</string>
+    <string name="fence_setting_title">フェンスの設置</string>
+    <string name="fence_create_local_circle">地元の円形のフェンスを作ります</string>
+    <string name="fence_create_server_circle">円フェンスを作りました</string>
+    <string name="fence_create_polyline">多段線の垣根をつくる</string>
+    <string name="fence_create_polygon">多角形フェンスをつくる</string>
+
+    <string name="no_track_data">未確認軌道</string>
+
+    <string name="track_query_title">軌跡照会</string>
+
+    <string name="choose">権限问题のため、先に登录してから上陆して、ありがとうございます</string>
+    <string name="ok">はい</string>
+    <string name="no">しない</string>
+
+    <!--登録ページ-->
+    <string name="username">アカウントを入力してください。</string>
+    <string name="password">パスワードを入力してください。</string>
+    <string name="login">ログイン</string>
+    <string name="register">登録</string>
+
+    <!--登録ページ-->
+    <string name="usernameS">ユーザー名を入力してください。</string>
+    <string name="passwords">パスワードを入力してください。</string>
+    <string name="passwordSs">パスワードを再度入力してください。</string>
+    <string name="read">私はサービスの条項にすでに読んで同意しています。</string>
+    <string name="registerEs">登録</string>
+
+    fragment_message_listlist-->
+    <string name="id">アカウントを入力してください。</string>
+    <string name="mess">配送内容を入力してください。</string>
+    <string name="lian">あなたの接続は既に切断されています。</string>
+    <string name="returns">アカウントを切り替えたりログインしたりします。</string>
+    <string name="send">送信</string>
+
+    <!--activity_add_friend-->
+    <string name="good">親友アカウントを入力してください。/ID</string>
+    <string name="reason">理由を追加する。</string>
+    <string name="findAdd">検索と追加</string>
+
+    <!--activity_create_group-->
+    <string name="groupQun">群名 :</string>
+    <string name="zi">2~ 10の漢字やアルファベット</string>
+    <string name="create">創建</string>
+
+    <!--activity_group-->
+    <string name="sid">入力id</string>
+    <string name="find">招待</string>
+    <string name="member">グループ員</string>
+
+    <!--otherAll-->
+    <string name="route_choose">コース選択</string>
+    <string name="ar_nav">ナビゲーション</string>
+    <string name="around">周辺サービス</string>
+    <string name="eagle">私の足跡</string>
+    <string name="voice">音声航法</string>
+    <string name="offline">離線ダウンロード</string>
+    <string name="chat">myチャット</string>
+    <string name="tel">コール</string>
+    <string name="map_choose_dialog">機能選択</string>
+    <string name="video">映像の詳細</string>
+    <string name="tv_up">出発</string>
+    <string name="at_navi">当面の位置</string>
+    <string name="tv_end">ゴールイン</string>
+    <string name="start_navi">ナビゲーションを開始する</string>
+    <string name="myOfflin">オフライン地図をダウンロードします</string>
+    <string name="city">北京</string>
+    <string name="search">検索</string>
+    <string name="state">ダウンロードしました:--</string>
+    <string name="start">から</string>
+    <string name="stop">停止</string>
+    <string name="del">削除</string>
+    <string name="city_list">都市の一覧</string>
+    <string name="local">ダウンロード管理</string>
+    <string name="hot_city">人気都市</string>
+    <string name="guo">全国</string>
+    <string name="download">すでに都市をダウンロードし</string>
+    <string name="searchkey">レストランでは</string>
+    <string name="searchNearby">周辺探索</string>
+    <string name="picture">写真</string>
+    <string name="videos">视频</string>
+    <string name="photo">カメラ</string>
+    <string name="biao">表情</string>
+    <string name="tv_upes">出発</string>
+    <string name="intoup">起点を入力する</string>
+    <string name="intoend">ゴールを入力する</string>
+    <string name="drive">運転</string>
+    <string name="transit">バス</string>
+    <string name="walk">步行</string>
+    <string name="bike">コース</string>
+    <string name="message">ニュース</string>
+    <string name="linkman">連絡先</string>
+    <string name="set">設置</string>
+    <string name="trace">常に追跡しています</string>
+    <string name="query">歴史の軌跡</string>
+    <string name="drawmap">選択に必要な路線をクリックし、地図で描いてください。</string>
+    <string name="province">省</string>
+    <string name="cities">市</string>
+    <string name="cancel">キャンセル</string>
+    <string name="tures">確定</string>
+    <string name="citys">都市:</string>
+    <string name="key">キーワード:</string>
+    <string name="new_friend">新しい友人</string>
+    <string name="group">群の话</string>
+    <string name="delies">削除</string>
+    <string name="loadings">すでに都市をダウンロードし</string>
+    <string name="look">チェック</string>
+    <string name="remove">削除</string>
+    <string name="search_location">搜索地点</string>
+    <string name="no_wifi">無ネットワーク</string>
+    <string name="no_result">結果を見つけることができない</string>
+    <string name="result">結果を見つける</string>
+    <string name="sorry_result">申し訳ありませんが、結果は見つかりません。</string>
+    <string name="sorry_wifi">インターネットは使用できません</string>
+    <string name="sorry_user">ユーザー名は空ではない。</string>
+    <string name="sorry_password">暗証番号が空にならない。</string>
+    <string name="and_false">ログイン失敗、パスワードまたはアカウントの誤り</string>
+    <string name="open_map">個人的な地図を</string>
+    <string name="close_map">パーソナル・地図を消しましょう</string>
+    <string name="open_loading_map">オフライン地図をダウンロードします. cityid: </string>
+    <string name="close_loading_map">オフラインの地図をダウンロードしなくてはならない. cityid: </string>
+    <string name="del_loading_map">オフライン地図を削除する. cityid: </string>
+    <string name="up_date">更新可能</string>
+    <string name="new_date">最新</string>
+    <string name="info_tures">情報が間違いないことを確認します。</string>
+    <string name="fou">いいえ</string>
+    <string name="is">は</string>
+    <string name="success_register">登录成功</string>
+    <string name="no_user">アカウントは空いていません。</string>
+    <string name="no_pass">暗証番号が空にならない。</string>
+    <string name="no_up">パスワード入力が合わない。</string>
+    <string name="short_user">ユーザー名が短い。</string>
+    <string name="length_pass">パスワードの長さに注意しましょう</string>
+    <string name="length">アカウントの長さは5位以下ではない</string>
+    <string name="prompt">提示</string>
+    <string name="turen">确认</string>
+    <string name="retrieval">检索地址有歧义，请重新设置。
+                  可通过getSuggestAddrInfo()接口获得建议查询信息</string>
+    <string name="input_end">ゴールを入力してください。</string>
+    <string name="position">私の位置</string>
+    <string name="null_user">ユーザー名は空です。</string>
+    <string name="del_friend">友人を削除するかどうか</string>
+    <string name="success_creat">成功を!</string>
+    <string name="false_creat">失敗をつくる!</string>
+    <string name="dissolution">グループは成功を解散する。</string>
+    <string name="not_yet_open">未公開</string>
+    <string name="remove_user">そのアカウントは既に除去されています</string>
+    <string name="no_login_user">他の装置でアカウント番号を登録する。</string>
+    <string name="not_service">チャットサーバに接続できません。</string>
+    <string name="not_wifi">当前网络不可用，请检查网络设置</string>
+    <string name="enorr_key">key 验证出错! 错误码 :</string>
+    <string name="p_key"> ; 请在 AndroidManifest.xml 文件中检查 key 设置</string>
+    <string name="success_key">key 验证成功! 功能可以正常使用</string>
+    <string name="wifi_e">インターネットエラー</string>
+    <string name="ordinary">一般</string>
+    <string name="follow">従う</string>
+    <string name="compass">羅針盤</string>
+    <string name="noresult">結果を検索していない。</string>
+    <string name="mani_key">请在AndoridManifest.xml中输入正确的授权Key,并检查您的网络连接是否正常！error: </string>
+    <string name="c_key">key認証成功</string>
+    <string name="sj">データは更新されていますよ。!</string>
+    <string name="cm">メッセージを送って成功する！</string>
+    <string name="fm">「メッセージの失敗を送ります！</string>
+    <string name="lx">路線</string>
+    <string name="xl">回線</string>
+    <string name="dy">だいたい必要です：</string>
+    <string name="jl">その距離は：</string>
+    <string name="fen">分</string>
+    <string name="hour">時間</string>
+    <string name="mi">メートル</string>
+    <string name="hlh">信号数：</string>
+    <string name="yd">渋滞距離は：</string>
+    <string name="yj">時間が予定されている。：</string>
+    <string name="price">総運賃：</string>
+    <string name="finish">放送が完了しました。</string>
+    <string name="me">私のじゃありません</string>
+
+</resources>

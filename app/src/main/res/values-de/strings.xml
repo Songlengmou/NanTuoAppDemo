@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">南拓</string>
+    <string name="app_title">南拓</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.\nSorry for the inconvenience.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart app</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close app</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+
+    <!-- Activity说明 -->
+    <string name="up">Schieben nach oben</string>
+    <string name="down">Nach unten</string>
+    <string name="left">Nach links schieben</string>
+    <string name="right">Streichen Sie nach rechts</string>
+    <string name="ups">Schieben nach oben</string>
+
+    <string name="tracing_desc">Innen- und außen hochpräzise kontinuierliche Verfolgung</string>
+    <string name="track_query_desc">Die Geschichte der verfolgten Person zu verfolgen</string>
+    <string name="fence_desc">Doppelte Überwachung von lokalen und cloud-Zäune</string>
+    <string name="bos_desc">Hochladen, Bilder herunterladen, Wasserzeichen Bild generieren</string>
+    <string name="cache_manage_desc">Abfrage, Löschen von zwischengespeicherten Flugbahn Informationen</string>
+    <string name="faq_desc">Status Code und Problem Feedback-Kanal-Beschreibung</string>
+    <string name="font_type">Microsoft James Black</string>
+    <string name="demo_name_poi">Peripheren Dienstleistungen</string>
+    <string name="demo_name_route">Routenwahl</string>
+    <string name="tracing_title">Eagle Eye-Bilanz</string>
+    <string name="tracing_options_title">Eagle Eye-Footprint-Setup</string>
+    <string name="track_query_options_title">Eagle Footprint Abfrage Augeneinstellungen</string>
+
+    <!-- 追踪控制子选项 -->
+    <string name="start_trace">Offener Dienst</string>
+    <string name="stop_trace">Dienst beenden</string>
+    <string name="start_gather">Offenen Erwerb</string>
+    <string name="stop_gather">Aufhören zu sammeln</string>
+
+    <!-- 轨迹分析子选项 -->
+    <string name="speeding">Die Beschleunigung</string>
+    <string name="harsh_breaking">Bremsen</string>
+    <string name="harsh_accel">Blast-Geschwindigkeit</string>
+    <string name="harsh_steering">Scharfe</string>
+    <string name="stay_point">Punkt zu bleiben</string>
+
+    <!-- 轨迹分析详情子选项 -->
+    <string name="loc_time">Ort Zeit</string>
+    <string name="actual_speed">Tatsächlichen Fahrgeschwindigkeit:</string>
+    <string name="limit_speed">Top-Speed zu begrenzen:</string>
+    <string name="acceleration">Tatsächliche Beschleunigung:</string>
+    <string name="initial_speed_1">Die vordere Geschwindigkeit beschleunigen:</string>
+    <string name="end_speed_1">Beschleunigte Geschwindigkeit:</string>
+    <string name="initial_speed_2">Bremse vorne Geschwindigkeit:</string>
+    <string name="end_speed_2">Bremse Geschwindigkeit:</string>
+    <string name="centripetal_acceleration">zentripetale Beschleunigung:</string>
+    <string name="turn_type">Steuerung Typ:</string>
+    <string name="turn_speed">Drehgeschwindigkeit:</string>
+    <string name="stay_start_time">Startzeit:</string>
+    <string name="stay_end_time">Endzeit:</string>
+    <string name="stay_duration">Aufenthaltsdauer:</string>
+    <!-- TracingOptionActivity 主选项名称 -->
+    <string name="tracing_option_interval">Sammlung, Verpackung Frequenz (in Sekunden):</string>
+    <string name="tracing_option_location_mode">Positionierung-Modus:</string>
+    <string name="tracing_option_object_save">Objekt-Storage:</string>
+
+
+    <!-- 定位模式子选项名称 -->
+    <string name="high_accuracy">Hochpräzise Positionierung Modus, GPS und Netzwerk integriert Positionierung</string>
+    <string name="battery_saving">Low-Power Modus mit Netzwerk Positionierung nur Positionierung</string>
+    <string name="device_sensors">Verwenden Sie nur die Positionierung der Geräte (GPS)</string>
+
+    <!-- BOS存储开关子选项 -->
+    <string name="close_bos">Herunterfahren</string>
+    <string name="open_bos">Offen</string>
+
+    <!-- 采集打包子选项 -->
+    <string name="gather_interval">Übernahme-Frequenz:</string>
+    <string name="pack_interval">Verpackung-Frequenz:</string>
+
+    <!-- 采集打包默认值 -->
+    <string name="gather_interval_hint">5</string>
+    <string name="pack_interval_hint">30</string>
+
+    <!-- TrackQueryOptionsActivity主选项 -->
+    <string name="track_query_option_time">Start und Endzeit:</string>
+    <string name="track_query_option_process">Abweichungsanalyse Korrektur und Daten:</string>
+    <string name="track_query_option_radius_threshold">Präzisions-Filtration (Einheit: M):</string>
+    <string name="track_query_option_transport_mode">Transportart:</string>
+    <string name="track_query_option_sort_type">Sortierung:</string>
+
+    <!-- 起止时间子选项 -->
+    <string name="start_time">Beginn:</string>
+    <string name="end_time">Ende:</string>
+
+    <!-- 精度过滤子选项-->
+    <string name="radius_value">Filter-Einstellungen:</string>
+    <string name="radius_hint">0</string>
+
+    <!-- 纠偏与数据分析子选项 -->
+    <string name="processed">Abweichung</string>
+    <string name="denoise">Rauschunterdrückung</string>
+    <string name="vacuate">Geräuchert</string>
+    <string name="mapmatch">Binden Sie die Straße.</string>
+
+    <!-- 交通方式子选项 -->
+    <string name="driving_mode">Fahren</string>
+    <string name="riding_mode">Reiten</string>
+    <string name="walking_mode">Zu Fuß</string>
+
+    <!-- 排序规则子选项 -->
+    <string name="asc">Aufsteigend</string>
+    <string name="desc">Absteigend</string>
+
+    <!-- 公共字符串 -->
+    <string name="all_supplement_model">Kilometerstand Abgeltungsvorschrift:</string>
+    <string name="all_coord_type">Typ zu koordinieren:</string>
+    <string name="all_cancel">Abbrechen</string>
+    <string name="all_sure">Bist du sicher</string>
+    <string name="ture_choose">Stellen Sie sicher, dass Sie wählen?</string>
+
+    <!-- 公共字符串 里程补偿选项 -->
+    <string name="no_supplement">Fügen Sie keine</string>
+    <string name="straight">Gerader Strecke</string>
+    <string name="driving">Kürzeste Fahrstrecke</string>
+    <string name="riding">Kürzeste Fahrt Linie</string>
+    <string name="walking">Kürzeste Wanderweg</string>
+
+    <!-- 公共字符串 坐标类型 -->
+    <string name="bd09ll">Baidu Längen- und Breitengrad Koordinaten</string>
+    <string name="gcj02">Koordiniert die staatlichen Bureau Verschlüsselung</string>
+
+    <!-- Dialog标题 -->
+    <string name="trace_control_title">Tracking-Kontrolle</string>
+    <string name="track_analysis_title">Analyse der Flugbahn</string>
+    <string name="track_analysis_speeding_title">Beschleunigung details</string>
+    <string name="track_analysis_breaking_title">Bremse-Details</string>
+    <string name="track_analysis_accel_title">Tolle Zeit-Geschwindigkeit-Details</string>
+    <string name="track_analysis_steering_title">Scharfe Kurve Details</string>
+    <string name="track_analysis_stay_title">Bleiben Punkt Details</string>
+    <string name="fence_setting_title">Zaun-Einstellungen</string>
+    <string name="fence_create_local_circle">Erstellen Sie einen lokalen kreisförmigen Zaun</string>
+    <string name="fence_create_server_circle">Dienstseitige kreisförmige Zäune erstellen</string>
+    <string name="fence_create_polyline">Erstellen Sie eine Multi-Segment-Linie Zaun</string>
+    <string name="fence_create_polygon">Erstellen Sie einen Polygon-Zaun</string>
+
+    <string name="no_track_data">Spur nicht abgefragt</string>
+
+    <string name="track_query_title">Flugbahn-Abfrage</string>
+
+    <string name="choose">Durch die Ausgabe von Berechtigungen sollten registriert werden, bevor die Landung, ich danke Ihnen verwendet werden kann!</string>
+    <string name="ok">Gut</string>
+    <string name="no">Nein</string>
+
+    <!--登录页-->
+    <string name="username">Bitte geben Sie die Kontonummer</string>
+    <string name="password">Bitte geben Sie ein Kennwort</string>
+    <string name="login">Log</string>
+    <string name="register">Registriert</string>
+
+    <!--注册页-->
+    <string name="usernameS">Bitte geben Sie einen Benutzernamen</string>
+    <string name="passwords">Bitte geben Sie ein Kennwort</string>
+    <string name="passwordSs">Bitte geben Sie Ihr Kennwort erneut</string>
+    <string name="read">Ich habe gelesen und akzeptiere die Nutzungsbedingungen</string>
+    <string name="registerEs">Registriert</string>
+
+    fragment_message_listlist-->
+    <string name="id">Bitte geben Sie die Kontonummer</string>
+    <string name="mess">Bitte geben Sie den senden-Inhalt</string>
+    <string name="lian">Die Verbindung ist unterbrochen</string>
+    <string name="returns">Konten wechseln oder wieder anmelden</string>
+    <string name="send">Senden</string>
+
+    <!--activity_add_friend-->
+    <string name="good">Bitte geben Sie Freund Konto-ID</string>
+    <string name="reason">Fügen Sie Grund</string>
+    <string name="findAdd">Suchen und hinzufügen</string>
+
+    <!--activity_create_group-->
+    <string name="groupQun">Gruppenname:</string>
+    <string name="zi">2 ~ 10 ein chinesisches Zeichen oder einen Brief</string>
+    <string name="create">Erstellen</string>
+
+    <!--activity_group-->
+    <string name="sid">Eingabe-ID</string>
+    <string name="find">Eingeladen</string>
+    <string name="member">Mitglieder der Gruppe</string>
+
+    <!--otherAll-->
+    <string name="route_choose">Routenwahl</string>
+    <string name="ar_nav">AR-Navigation</string>
+    <string name="around">Peripheren Dienstleistungen</string>
+    <string name="eagle">Meine Fußspuren</string>
+    <string name="voice">Sprach-navigation</string>
+    <string name="offline">Offline-Downloads</string>
+    <string name="chat">Mein Chat-Raum</string>
+    <string name="tel">Service</string>
+    <string name="map_choose_dialog">Funktionsauswahl</string>
+    <string name="video">Videodetails</string>
+    <string name="tv_up">Punkt</string>
+    <string name="at_navi">Aktuelle position</string>
+    <string name="tv_end">Ende</string>
+    <string name="start_navi">Starten Sie die navigation</string>
+    <string name="myOfflin">Offline Karte herunterladen</string>
+    <string name="city">Beijing</string>
+    <string name="search">Suche</string>
+    <string name="state">Heruntergeladen:--</string>
+    <string name="start">Beginnen</string>
+    <string name="stop">Hör auf</string>
+    <string name="del">Löschen</string>
+    <string name="city_list">Städteliste</string>
+    <string name="local">Download-Management</string>
+    <string name="hot_city">Beliebte Städte</string>
+    <string name="guo">Nationalen</string>
+    <string name="download">Stadt heruntergeladen</string>
+    <string name="searchkey">wie z. B.: Restaurant</string>
+    <string name="searchNearby">周边搜索</string>
+    <string name="picture">Bild</string>
+    <string name="videos">Video</string>
+    <string name="photo">Kamera</string>
+    <string name="biao">Ausdruck</string>
+    <string name="tv_upes">Punkt</string>
+    <string name="intoup">Geben Sie Startpunkt</string>
+    <string name="intoend">Geben Sie Ende</string>
+    <string name="drive">Fahren</string>
+    <string name="transit">Bus</string>
+    <string name="walk">Zu Fuß</string>
+    <string name="bike">Reiten</string>
+    <string name="message">Nachricht</string>
+    <string name="linkman">Kontakt</string>
+    <string name="set">Einrichten</string>
+    <string name="trace">Verfolgen Sie immer Tracking</string>
+    <string name="query">Historische Strecke Abfrage</string>
+    <string name="drawmap">Bitte klicken Sie die gewünschte Route auf der Karte zu zeichnen</string>
+    <string name="province">Provinz</string>
+    <string name="cities">Stadt</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="tures">Bist du sicher</string>
+    <string name="citys">Stadt:</string>
+    <string name="key">Stichwörter:</string>
+    <string name="new_friend">Neue Freunde</string>
+    <string name="group">Gruppen-Chat</string>
+    <string name="delies">Löschen</string>
+    <string name="loadings">Stadt heruntergeladen</string>
+    <string name="look">Blick</string>
+    <string name="remove">Löschen</string>
+    <string name="search_location">Suchorte</string>
+    <string name="no_wifi">Kein Netzwerk derzeit</string>
+    <string name="no_result">Keine Ergebnisse gefunden</string>
+    <string name="result">Finden Sie das Ergebnis</string>
+    <string name="sorry_result">Leider keine Ergebnisse gefunden</string>
+    <string name="sorry_wifi">Netzwerk nicht verfügbar</string>
+    <string name="sorry_user">Benutzername darf nicht leer sein.</string>
+    <string name="sorry_password">Kennwort darf nicht leer sein.</string>
+    <string name="and_false">Anmeldung fehlgeschlagen, Passworts oder Kontos Fehler</string>
+    <string name="open_map">Personalisierte Karte öffnen</string>
+    <string name="close_map">Schalten Sie personalisierte Karten</string>
+    <string name="open_loading_map">Starten Sie den Download von offline-Karten. CityId:</string>
+    <string name="close_loading_map">Pausieren Sie Offlinekarten herunterladen. CityId:</string>
+    <string name="del_loading_map">Entfernen Sie die offline-Karte. CityId:</string>
+    <string name="up_date">Aktualisierbar</string>
+    <string name="new_date">Neueste</string>
+    <string name="info_tures">Bestätigungsinformationen stimmt</string>
+    <string name="fou">Ob</string>
+    <string name="is">Ist</string>
+    <string name="success_register">Registrierung erfolgreich</string>
+    <string name="no_user">Konto darf nicht leer sein.</string>
+    <string name="no_pass">Kennwort darf nicht leer sein.</string>
+    <string name="no_up">Passwort Eingabe inkonsistent</string>
+    <string name="short_user">Benutzername ist zu kurz</string>
+    <string name="length_pass">Beachten Sie die Länge des Passworts</string>
+    <string name="length">Kontolänge darf nicht weniger als 5 Ziffern sein.</string>
+    <string name="prompt">Aufgefordert</string>
+    <string name="turen">Bestätigen</string>
+    <string name="retrieval">检索地址有歧义，请重新设置。
+可通过getSuggestAddrInfo()接口获得建议查询信息</string>
+    <string name="input_end">Bitte geben Sie einen Endpunkt</string>
+    <string name="position">Meine position</string>
+    <string name="null_user">Benutzername ist leer</string>
+    <string name="del_friend">Löschen von Freunden</string>
+    <string name="success_creat">Schaffen Erfolg!</string>
+    <string name="false_creat">Erstellen fehlgeschlagen!</string>
+    <string name="dissolution">Auflösung der Gruppe erfolgreich</string>
+    <string name="not_yet_open">Vorübergehend nicht geöffnet werden</string>
+    <string name="remove_user">Kontonummer wurde entfernt</string>
+    <string name="no_login_user">Kontonummer ist auf andere Geräte angemeldet</string>
+    <string name="not_service">Kann nicht mit einem Chatserver verbinden</string>
+    <string name="not_wifi">当前网络不可用，请检查网络设置</string>
+    <string name="enorr_key">key 验证出错! 错误码 :</string>
+    <string name="p_key"> ; 请在 AndroidManifest.xml 文件中检查 key 设置</string>
+    <string name="success_key">key 验证成功! 功能可以正常使用</string>
+    <string name="wifi_e">Netzwerkfehler</string>
+    <string name="ordinary">Gewöhnliche</string>
+    <string name="follow">Folgen Sie</string>
+    <string name="compass">Kompass</string>
+    <string name="noresult">Keine Suchergebnisse</string>
+    <string name="mani_key">请在AndoridManifest.xml中输入正确的授权Key,并检查您的网络连接是否正常！error: </string>
+    <string name="c_key">Key-Authentifizierung erfolgreich</string>
+    <string name="sj">Daten wurden aktualisiert, OH!</string>
+    <string name="cm">Senden Sie Nachricht ist es gelungen！</string>
+    <string name="fm">Senden Sie Nachricht ist fehlgeschlagen！</string>
+    <string name="lx">Route</string>
+    <string name="xl">Linie</string>
+    <string name="dy">Über die Notwendigkeit：</string>
+    <string name="jl">Entfernung beträgt ca.：</string>
+    <string name="fen">Minuten</string>
+    <string name="hour">Stunden</string>
+    <string name="mi">Meter</string>
+    <string name="hlh">Anzahl der Ampel：</string>
+    <string name="yd">Der Stau eine Entfernung：</string>
+    <string name="yj">Geschätzte Zeit bis zum erreichen：</string>
+    <string name="price">Insgesamt Tarife：</string>
+    <string name="finish">Wiedergabe ist abgeschlossen.</string>
+    <string name="me">Ich</string>
+
+</resources>

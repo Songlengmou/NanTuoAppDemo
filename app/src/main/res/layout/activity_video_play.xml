@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.nantuoappdemo.activity.VideoPlayActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+                android:id="@+id/jc_video"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="《演员》由薛之谦包揽词曲创作，并首度升级制作人，
+            2015年薛之谦再添“演员”新身份，但薛之谦以“在爱情面前，
+            我不是一位演员，但愿成为一名绅士”为创作理念，
+            将局外人拉入“薛氏情歌”的纠结情感中。
+《演员》由薛之谦包揽词曲创作，并首度升级制作人，
+            2015年薛之谦再添“演员”新身份，但薛之谦以“在爱情面前，
+            我不是一位演员，但愿成为一名绅士”为创作理念，
+            将局外人拉入“薛氏情歌”的纠结情感中。
+《演员》由薛之谦包揽词曲创作，并首度升级制作人，
+            2015年薛之谦再添“演员”新身份，但薛之谦以“在爱情面前，
+            我不是一位演员，但愿成为一名绅士”为创作理念，
+            将局外人拉入“薛氏情歌”的纠结情感中。
+《演员》由薛之谦包揽词曲创作，并首度升级制作人，
+            2015年薛之谦再添“演员”新身份，但薛之谦以“在爱情面前，
+            我不是一位演员，但愿成为一名绅士”为创作理念，
+            将局外人拉入“薛氏情歌”的纠结情感中。" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.example.admin.nantuoappdemo.activity.ChooseMapFunctionActivity">
+
+    <Button
+        android:id="@+id/route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterButtonProcess"
+        android:text="@string/route_choose" />
+
+    <Button
+        android:id="@+id/ARnav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterButtonProcess"
+        android:text="@string/ar_nav" />
+
+    <Button
+        android:id="@+id/around"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterButtonProcess"
+        android:text="@string/around" />
+
+    <Button
+        android:id="@+id/eagle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterButtonProcess"
+        android:text="@string/eagle" />
+
+    <Button
+        android:id="@+id/voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterButtonProcess"
+        android:text="@string/voice" />
+
+    <Button
+        android:id="@+id/offline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterButtonProcess"
+        android:text="@string/offline" />
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterButtonProcess"
+        android:text="@string/chat" />
+
+    <Button
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterButtonProcess"
+        android:text="@string/tel" />
+
+</LinearLayout>

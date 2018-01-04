@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">南拓</string>
+    <string name="app_title">南拓</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.\nSorry for the inconvenience.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart app</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close app</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+
+    <!-- Activity说明 -->
+    <string name="up">向上滑</string>
+    <string name="down">向下滑</string>
+    <string name="left">向左滑</string>
+    <string name="right">向右滑</string>
+    <string name="ups">向上滑動</string>
+
+    <string name="tracing_desc">室內、外高精度連續追蹤</string>
+    <string name="track_query_desc">查詢被追蹤者的歷史軌跡</string>
+    <string name="fence_desc">本地、雲端圍欄雙重監控</string>
+    <string name="bos_desc">上傳、下載圖片，生成浮水印圖片</string>
+    <string name="cache_manage_desc">查詢、刪除緩存的軌跡資訊</string>
+    <string name="faq_desc">狀態碼及問題回饋管道說明</string>
+    <string name="font_type">微軟雅黑</string>
+    <string name="demo_name_poi">周邊服務</string>
+    <string name="demo_name_route">路線選擇</string>
+    <string name="tracing_title">鷹眼足跡</string>
+    <string name="tracing_options_title">鷹眼足跡設置</string>
+    <string name="track_query_options_title">鷹眼足跡查詢設置</string>
+
+    <!-- 追踪控制子选项 -->
+    <string name="start_trace">開啟服務</string>
+    <string name="stop_trace">停止服務</string>
+    <string name="start_gather">開啟採集</string>
+    <string name="stop_gather">停止採集</string>
+
+    <!-- 轨迹分析子选项 -->
+    <string name="speeding">超 速</string>
+    <string name="harsh_breaking">急刹車</string>
+    <string name="harsh_accel">急變速</string>
+    <string name="harsh_steering">急轉彎</string>
+    <string name="stay_point">停留點</string>
+
+    <!-- 轨迹分析详情子选项 -->
+    <string name="loc_time">定位時間</string>
+    <string name="actual_speed">實際行駛速度：</string>
+    <string name="limit_speed">限定最高時速：</string>
+    <string name="acceleration">實際加速度：</string>
+    <string name="initial_speed_1">加速前時速：</string>
+    <string name="end_speed_1">加速後時速：</string>
+    <string name="initial_speed_2">刹車前時速：</string>
+    <string name="end_speed_2">刹車後時速：</string>
+    <string name="centripetal_acceleration">向心加速度：</string>
+    <string name="turn_type">轉向類型：</string>
+    <string name="turn_speed">轉向時速：</string>
+    <string name="stay_start_time">開始時間：</string>
+    <string name="stay_end_time">結束時間：</string>
+    <string name="stay_duration">停留時長：</string>
+    <!-- TracingOptionActivity 主选项名称 -->
+    <string name="tracing_option_interval">採集、打包頻率(單位:秒):</string>
+    <string name="tracing_option_location_mode">定位模式:</string>
+    <string name="tracing_option_object_save">物件存儲:</string>
+
+
+    <!-- 定位模式子选项名称 -->
+    <string name="high_accuracy">高精度定位模式，GPS與網路綜合定位</string>
+    <string name="battery_saving">低功耗定位模式，僅使用網路定位</string>
+    <string name="device_sensors">僅使用設備(GPS)定位</string>
+
+    <!-- BOS存储开关子选项 -->
+    <string name="close_bos">關閉</string>
+    <string name="open_bos">開啟</string>
+
+    <!-- 采集打包子选项 -->
+    <string name="gather_interval">採集頻率:</string>
+    <string name="pack_interval">打包頻率:</string>
+
+    <!-- 采集打包默认值 -->
+    <string name="gather_interval_hint">5</string>
+    <string name="pack_interval_hint">30</string>
+
+    <!-- TrackQueryOptionsActivity主选项 -->
+    <string name="track_query_option_time">起止時間:</string>
+    <string name="track_query_option_process">糾偏與資料分析:</string>
+    <string name="track_query_option_radius_threshold">精度過濾(單位:米):</string>
+    <string name="track_query_option_transport_mode">交通方式:</string>
+    <string name="track_query_option_sort_type">排序規則:</string>
+
+    <!-- 起止时间子选项 -->
+    <string name="start_time">開始：</string>
+    <string name="end_time">結束：</string>
+
+    <!-- 精度过滤子选项-->
+    <string name="radius_value">過濾值：</string>
+    <string name="radius_hint">0</string>
+
+    <!-- 纠偏与数据分析子选项 -->
+    <string name="processed">糾偏</string>
+    <string name="denoise">去噪</string>
+    <string name="vacuate">抽稀</string>
+    <string name="mapmatch">綁路</string>
+
+    <!-- 交通方式子选项 -->
+    <string name="driving_mode">駕車</string>
+    <string name="riding_mode">騎行</string>
+    <string name="walking_mode">步行</string>
+
+    <!-- 排序规则子选项 -->
+    <string name="asc">昇冪</string>
+    <string name="desc">降冪</string>
+
+    <!-- 公共字符串 -->
+    <string name="all_supplement_model">里程補償方式:</string>
+    <string name="all_coord_type">座標類型:</string>
+    <string name="all_cancel">取消</string>
+    <string name="all_sure">確定</string>
+    <string name="ture_choose">確定選擇嗎?</string>
+
+    <!-- 公共字符串 里程补偿选项 -->
+    <string name="no_supplement">不補充</string>
+    <string name="straight">直線距離</string>
+    <string name="driving">最短駕車路線</string>
+    <string name="riding">最短騎行路線</string>
+    <string name="walking">最短步行路線</string>
+
+    <!-- 公共字符串 坐标类型 -->
+    <string name="bd09ll">百度經緯度座標</string>
+    <string name="gcj02">國測局加密座標</string>
+
+    <!-- Dialog标题 -->
+    <string name="trace_control_title">追蹤控制</string>
+    <string name="track_analysis_title">軌跡分析</string>
+    <string name="track_analysis_speeding_title">超速詳情</string>
+    <string name="track_analysis_breaking_title">急刹車詳情</string>
+    <string name="track_analysis_accel_title">急變速詳情</string>
+    <string name="track_analysis_steering_title">急轉彎詳情</string>
+    <string name="track_analysis_stay_title">停留點詳情</string>
+    <string name="fence_setting_title">圍欄設置</string>
+    <string name="fence_create_local_circle">創建本地圓形圍欄</string>
+    <string name="fence_create_server_circle">創建服務端圓形圍欄</string>
+    <string name="fence_create_polyline">創建多段線圍欄</string>
+    <string name="fence_create_polygon">創建多邊形圍欄</string>
+
+    <string name="no_track_data">未查詢到軌跡</string>
+
+    <string name="track_query_title">軌跡查詢</string>
+
+    <string name="choose">因許可權問題,應先註冊後登陸方可使用,謝謝!</string>
+    <string name="ok">好的</string>
+    <string name="no">不了</string>
+
+    <!--登录页-->
+    <string name="username">請輸入帳號</string>
+    <string name="password">請輸入密碼</string>
+    <string name="login">登錄</string>
+    <string name="register">註冊</string>
+
+    <!--注册页-->
+    <string name="usernameS">請輸入使用者名</string>
+    <string name="passwords">請輸入密碼</string>
+    <string name="passwordSs">請再次輸入密碼</string>
+    <string name="read">我已閱讀並同意服務條款</string>
+    <string name="registerEs">註冊</string>
+
+    fragment_message_listlist-->
+    <string name="id">請輸入對方帳號</string>
+    <string name="mess">請輸入發送內容</string>
+    <string name="lian">您的連接已斷開</string>
+    <string name="returns">切換帳號或重新登陸</string>
+    <string name="send">發送</string>
+
+    <!--activity_add_friend-->
+    <string name="good">請輸入好友帳號/ID</string>
+    <string name="reason">添加理由</string>
+    <string name="findAdd">查找 並 添加</string>
+
+    <!--activity_create_group-->
+    <string name="groupQun">群名稱 :</string>
+    <string name="zi">2~10個漢字或字母</string>
+    <string name="create">創建</string>
+
+    <!--activity_group-->
+    <string name="sid">輸入ID</string>
+    <string name="find">邀請</string>
+    <string name="member">群成員</string>
+
+    <!--otherAll-->
+    <string name="route_choose">路線選擇</string>
+    <string name="ar_nav">AR導航</string>
+    <string name="around">周邊服務</string>
+    <string name="eagle">我的足跡</string>
+    <string name="voice">語音瀏覽</string>
+    <string name="offline">離線下載</string>
+    <string name="chat">My聊天室</string>
+    <string name="tel">客服</string>
+    <string name="map_choose_dialog">功能選擇</string>
+    <string name="video">視頻詳情</string>
+    <string name="tv_up">起點</string>
+    <string name="at_navi">當前位置</string>
+    <string name="tv_end">終點</string>
+    <string name="start_navi">開始導航</string>
+    <string name="myOfflin">下載離線地圖</string>
+    <string name="city">北京</string>
+    <string name="search">搜索</string>
+    <string name="state">已下載:--</string>
+    <string name="start">開始</string>
+    <string name="stop">停止</string>
+    <string name="del">刪除</string>
+    <string name="city_list">城市清單</string>
+    <string name="local">下載管理</string>
+    <string name="hot_city">熱門城市</string>
+    <string name="guo">全國</string>
+    <string name="download">已下載城市</string>
+    <string name="searchkey">如：餐廳</string>
+    <string name="searchNearby">周邊搜索</string>
+    <string name="picture">圖片</string>
+    <string name="videos">視頻</string>
+    <string name="photo">攝像</string>
+    <string name="biao">表情</string>
+    <string name="tv_upes">起點</string>
+    <string name="intoup">輸入起點</string>
+    <string name="intoend">輸入終點</string>
+    <string name="drive">駕車</string>
+    <string name="transit">公交</string>
+    <string name="walk">步行</string>
+    <string name="bike">騎行</string>
+    <string name="message">消息</string>
+    <string name="linkman">連絡人</string>
+    <string name="set">設置</string>
+    <string name="trace">軌跡時時追蹤</string>
+    <string name="query">歷史軌跡查詢</string>
+    <string name="drawmap">請點擊選擇所需路線，在地圖中繪製</string>
+    <string name="province">省</string>
+    <string name="cities">市</string>
+    <string name="cancel">取消</string>
+    <string name="tures">確定</string>
+    <string name="citys">城　市:</string>
+    <string name="key">關鍵字:</string>
+    <string name="new_friend">新朋友</string>
+    <string name="group">群聊</string>
+    <string name="delies">刪除</string>
+    <string name="loadings">已下載城市</string>
+    <string name="look">查看</string>
+    <string name="remove">刪除</string>
+    <string name="search_location">搜索地點</string>
+    <string name="no_wifi">當前無網路</string>
+    <string name="no_result">未找到結果</string>
+    <string name="result">找到結果</string>
+    <string name="sorry_result">抱歉，未找到結果</string>
+    <string name="sorry_wifi">網路不可用</string>
+    <string name="sorry_user">使用者名不能為空</string>
+    <string name="sorry_password">密碼不能為空</string>
+    <string name="and_false">登陸失敗,密碼或帳號錯誤</string>
+    <string name="open_map">開啟個人化地圖</string>
+    <string name="close_map">關閉個人化地圖</string>
+    <string name="open_loading_map">開始下載離線地圖. cityid: </string>
+    <string name="close_loading_map">暫停下載離線地圖. cityid: </string>
+    <string name="del_loading_map">刪除離線地圖. cityid: </string>
+    <string name="up_date">可更新</string>
+    <string name="new_date">最新</string>
+    <string name="info_tures">確認資訊無誤</string>
+    <string name="fou">否</string>
+    <string name="is">是</string>
+    <string name="success_register">註冊成功</string>
+    <string name="no_user">帳號不能為空</string>
+    <string name="no_pass">密碼不能為空</string>
+    <string name="no_up">密碼輸入不一致</string>
+    <string name="short_user">使用者名太短</string>
+    <string name="length_pass">注意密碼長度</string>
+    <string name="length">帳號長度不能小於5位</string>
+    <string name="prompt">提示</string>
+    <string name="turen">確認</string>
+    <string name="retrieval">檢索位址有歧義，請重新設置。
+可通過getSuggestAddrInfo()介面獲得建議查詢資訊</string>
+    <string name="input_end">請輸入終點</string>
+    <string name="position">我的位置</string>
+    <string name="null_user">使用者名為空</string>
+    <string name="del_friend">是否刪除好友</string>
+    <string name="success_creat">創建成功!</string>
+    <string name="false_creat">創建失敗!</string>
+    <string name="dissolution">群組解散成功</string>
+    <string name="not_yet_open">暫未開放</string>
+    <string name="remove_user">帳號已經被移除</string>
+    <string name="no_login_user">帳號在其他設備登錄</string>
+    <string name="not_service">連接不到聊天伺服器</string>
+    <string name="not_wifi">當前網路不可用，請檢查網路設置</string>
+    <string name="enorr_key">key 驗證出錯! 錯誤碼 :</string>
+    <string name="p_key"> ; 請在 AndroidManifest.xml 檔中檢查 key 設置</string>
+    <string name="success_key">key 驗證成功! 功能可以正常使用</string>
+    <string name="wifi_e">網路出錯</string>
+    <string name="ordinary">普通</string>
+    <string name="follow">跟隨</string>
+    <string name="compass">羅盤</string>
+    <string name="noresult">沒有搜索到結果</string>
+    <string name="mani_key">請在AndoridManifest.xml中輸入正確的授權Key,並檢查您的網路連接是否正常！ error: </string>
+    <string name="c_key">key認證成功</string>
+    <string name="sj">資料已更新哦!</string>
+    <string name="cm">發送消息成功！ </string>
+    <string name="fm">發送消息失敗！ </string>
+    <string name="lx">路線</string>
+    <string name="xl">線路</string>
+    <string name="dy">大約需要：</string>
+    <string name="jl">距離大約是：</string>
+    <string name="fen">分鐘</string>
+    <string name="hour">小時</string>
+    <string name="mi">米</string>
+    <string name="hlh">紅綠燈數：</string>
+    <string name="yd">擁堵距離為：</string>
+    <string name="yj">預計達到時間：</string>
+    <string name="price">總票價：</string>
+    <string name="finish">播放完成了</string>
+    <string name="me">我</string>
+
+</resources>
